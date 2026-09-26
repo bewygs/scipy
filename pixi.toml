@@ -1,0 +1,18 @@
+[workspace]
+name = "debug-win-openblas"
+channels = ["https://prefix.dev/conda-forge"]
+platforms = ["win-64"]
+
+# Pins copied from scipy's pixi.lock (`test` env, win-64) as of df9633695f,
+# i.e. what the failing "fast, py3.12/npAny, spin" job installs.
+[dependencies]
+python = { version = "==3.14.2", build = "h4b44e0e_100_cp314" }
+numpy = { version = "==2.3.5", build = "py314h06c3c77_0" }
+libopenblas = { version = "==0.3.34", build = "pthreads_h877e47f_0" }
+openblas = { version = "==0.3.34", build = "pthreads_h4a7f399_0" }
+libblas = { version = "==3.11.0", build = "9_h0adab6e_openblas" }
+blas-devel = { version = "==3.11.0", build = "9_ha590de0_openblas" }
+threadpoolctl = "==3.6.0"
+# prebuilt scipy, linked against the same libblas/liblapack -> libopenblas
+scipy = "*"
+py-cpuinfo = "*"
