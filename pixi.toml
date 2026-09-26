@@ -1,0 +1,33 @@
+[workspace]
+name = "openblas-0.3.34-regression"
+channels = ["https://prefix.dev/conda-forge"]
+platforms = ["win-64"]
+
+# Same Python/numpy as scipy's pixi.lock (`test` env, win-64); scipy itself
+# comes prebuilt from conda-forge and uses the same libblas -> libopenblas.
+[dependencies]
+python = { version = "==3.14.2", build = "h4b44e0e_100_cp314" }
+numpy = { version = "==2.3.5", build = "py314h06c3c77_0" }
+scipy = "*"
+py-cpuinfo = "*"
+libblas = { version = "*", build = "*openblas" }
+
+[feature.ob30.dependencies]
+libopenblas = "0.3.30.*"
+
+[feature.ob33.dependencies]
+libopenblas = "0.3.33.*"
+
+# exact build in scipy's pixi.lock
+[feature.ob34-lock.dependencies]
+libopenblas = { version = "==0.3.34", build = "pthreads_h877e47f_0" }
+
+# latest conda-forge build of 0.3.34
+[feature.ob34-latest.dependencies]
+libopenblas = { version = "==0.3.34", build = "pthreads_h952cde7_2" }
+
+[environments]
+ob30 = ["ob30"]
+ob33 = ["ob33"]
+ob34-lock = ["ob34-lock"]
+ob34-latest = ["ob34-latest"]
