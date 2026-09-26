@@ -65,7 +65,9 @@ print("DONE", flush=True)
 
 VARIANTS = {
     "default": {"OPENBLAS_NUM_THREADS": "1"},
-    "Haswell": {"OPENBLAS_NUM_THREADS": "1", "OPENBLAS_CORETYPE": "Haswell"},
+    # workaround from OpenBLAS#6021: the Zen 4/5 P/Q override needs l2 == 1 MiB
+    "L2_2048": {"OPENBLAS_NUM_THREADS": "1", "OPENBLAS_L2_SIZE": "2048"},
+    "L2_2048_allthreads": {"OPENBLAS_L2_SIZE": "2048"},
 }
 
 
