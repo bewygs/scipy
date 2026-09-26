@@ -12,12 +12,12 @@ jobs:
   repro:
     name: repro ${{ matrix.copy }}
     runs-on: windows-2025
-    timeout-minutes: 40
+    timeout-minutes: 60
     strategy:
       fail-fast: false
       matrix:
         # identical copies: each lands on a random runner / CPU
-        copy: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
+        copy: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
     steps:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -29,18 +29,29 @@ jobs:
           pixi-version: v0.81.0
           cache: false
           locked: true
+          environments: default
 
       - name: CPU info
+        id: cpu
         run: |
           Get-CimInstance Win32_Processor | Format-List Name,Manufacturer,Description,NumberOfCores,NumberOfLogicalProcessors
-          pixi info
+          pixi run python repro2.py probe
 
-      - name: Repro
-        run: pixi run python repro.py --out result-${{ matrix.copy }}.json
+      - name: Run default env (+ dgemm shape sweep)
+        run: pixi run python repro2.py run --label default --copy ${{ matrix.copy }} --sweep
 
-      - name: Upload result
+      - name: Run other BLAS builds (AMD AVX-512 runners only)
+        if: steps.cpu.outputs.target == 'true'
+        run: |
+          foreach ($e in @("ob34-2", "ob33", "ob30", "ob28", "mkl", "pypi")) {
+            pixi run -e $e python repro2.py run --label $e --copy ${{ matrix.copy }}
+            if ($LASTEXITCODE -ne 0) { Write-Host "::warning::run for $e exited with $LASTEXITCODE" }
+          }
+          exit 0
+
+      - name: Upload results
         if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
-          name: result-${{ matrix.copy }}
-          path: result-${{ matrix.copy }}.json
+          name: results-${{ matrix.copy }}
+          path: result-*.json

@@ -39,6 +39,207 @@ environments:
       - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
       - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
       - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+  mkl:
+    channels:
+    - url: https://prefix.dev/conda-forge/
+    packages:
+      win-64:
+      - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/py-cpuinfo-9.0.0-pyhd8ed1ab_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/python_abi-3.14-9_cp314.conda
+      - conda: https://prefix.dev/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/icu-78.3-h5112557_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-11_h8455456_mkl.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-11_h2a3cdd5_mkl.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libhwloc-2.13.0-default_h049141e_1000.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libiconv-1.18-hc1393d2_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-11_hf9ab0e9_mkl.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libxml2-16-2.15.4-h3cfd58e_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libxml2-2.15.4-he095d88_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/llvm-openmp-23.1.2-h49e36cd_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/mkl-2026.1.0-hac47afa_235.conda
+      - conda: https://prefix.dev/conda-forge/win-64/numpy-2.3.5-py314h06c3c77_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/python-3.14.2-h4b44e0e_100_cp314.conda
+      - conda: https://prefix.dev/conda-forge/win-64/scipy-1.18.1-py314h67d5eaa_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tbb-2023.1.0-hdcfe883_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc-14.5-ha367084_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+  ob28:
+    channels:
+    - url: https://prefix.dev/conda-forge/
+    packages:
+      win-64:
+      - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/py-cpuinfo-9.0.0-pyhd8ed1ab_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/python_abi-3.14-9_cp314.conda
+      - conda: https://prefix.dev/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/icu-78.3-h5112557_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libblas-3.9.0-29_h11dc60a_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libcblas-3.9.0-29_h9bd4c3b_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libhwloc-2.13.0-default_h049141e_1000.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libiconv-1.18-hc1393d2_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblapack-3.9.0-29_h2526c6b_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.28-pthreads_head3c61_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libxml2-16-2.15.4-h3cfd58e_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libxml2-2.15.4-he095d88_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/llvm-openmp-23.1.2-h49e36cd_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/mkl-2024.2.2-h57928b3_16.conda
+      - conda: https://prefix.dev/conda-forge/win-64/numpy-2.3.5-py314h06c3c77_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/python-3.14.2-h4b44e0e_100_cp314.conda
+      - conda: https://prefix.dev/conda-forge/win-64/scipy-1.18.1-py314h67d5eaa_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tbb-2021.13.0-h50d9778_7.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc-14.5-ha367084_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+  ob30:
+    channels:
+    - url: https://prefix.dev/conda-forge/
+    packages:
+      win-64:
+      - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/py-cpuinfo-9.0.0-pyhd8ed1ab_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/python_abi-3.14-9_cp314.conda
+      - conda: https://prefix.dev/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-5_h0adab6e_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-5_h2a8eebe_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-5_hd232482_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.30-pthreads_h877e47f_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/numpy-2.3.5-py314h06c3c77_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/python-3.14.2-h4b44e0e_100_cp314.conda
+      - conda: https://prefix.dev/conda-forge/win-64/scipy-1.18.1-py314h67d5eaa_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc-14.5-ha367084_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+  ob33:
+    channels:
+    - url: https://prefix.dev/conda-forge/
+    packages:
+      win-64:
+      - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/py-cpuinfo-9.0.0-pyhd8ed1ab_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/python_abi-3.14-9_cp314.conda
+      - conda: https://prefix.dev/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-8_h0adab6e_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-8_h2a8eebe_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-8_hd232482_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.33-pthreads_h877e47f_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/numpy-2.3.5-py314h06c3c77_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/python-3.14.2-h4b44e0e_100_cp314.conda
+      - conda: https://prefix.dev/conda-forge/win-64/scipy-1.18.1-py314h67d5eaa_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc-14.5-ha367084_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+  ob34-2:
+    channels:
+    - url: https://prefix.dev/conda-forge/
+    packages:
+      win-64:
+      - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/py-cpuinfo-9.0.0-pyhd8ed1ab_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/python_abi-3.14-9_cp314.conda
+      - conda: https://prefix.dev/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-11_h0adab6e_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-11_h2a8eebe_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-11_hd232482_openblas.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.34-pthreads_h952cde7_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/numpy-2.3.5-py314h06c3c77_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/python-3.14.2-h4b44e0e_100_cp314.conda
+      - conda: https://prefix.dev/conda-forge/win-64/scipy-1.18.1-py314h67d5eaa_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc-14.5-ha367084_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+  pypi:
+    channels:
+    - url: https://prefix.dev/conda-forge/
+    indexes:
+    - https://pypi.org/simple
+    packages:
+      win-64:
+      - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/py-cpuinfo-9.0.0-pyhd8ed1ab_1.conda
+      - conda: https://prefix.dev/conda-forge/noarch/python_abi-3.14-9_cp314.conda
+      - conda: https://prefix.dev/conda-forge/noarch/threadpoolctl-3.6.0-pyhecae5ae_0.conda
+      - conda: https://prefix.dev/conda-forge/noarch/tzdata-2026c-h151e31d_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/bzip2-1.0.8-h0ad9c76_10.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libffi-3.5.2-h3d046cb_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/liblzma-5.8.3-hfd05255_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libmpdec-4.0.0-hfd05255_2.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
+      - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
+      - conda: https://prefix.dev/conda-forge/win-64/openssl-3.6.4-hf411b9b_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/python-3.14.2-h4b44e0e_100_cp314.conda
+      - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
+      - conda: https://prefix.dev/conda-forge/win-64/ucrt-10.0.26100.0-h57928b3_0.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc-14.5-ha367084_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vc14_runtime-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/vcomp14-14.51.36247-habf1de7_41.conda
+      - conda: https://prefix.dev/conda-forge/win-64/zstd-1.5.7-h534d264_7.conda
+      - pypi: https://files.pythonhosted.org/packages/52/94/d73da0d28f16c45bb9b0a5691b91610b0275c5ef0eb5e43c87cf2dc1bf31/scipy-1.18.1-cp314-cp314-win_amd64.whl
+      - pypi: https://files.pythonhosted.org/packages/a3/2e/235b4d96619931192c91660805e5e49242389742a7a82c27665021db690c/numpy-2.3.5-cp314-cp314-win_amd64.whl
 packages:
 - conda: https://prefix.dev/conda-forge/noarch/ca-certificates-2026.7.22-h4c7d964_0.conda
   sha256: 95e8e74062a5fe5f870ac8c90302b6e89945165fdaed7810606e84ddee6aac12
@@ -46,6 +247,7 @@ packages:
   depends:
   - __win
   license: ISC
+  purls: []
   run_exports: {}
   size: 132136
   timestamp: 1784754918886
@@ -56,6 +258,8 @@ packages:
   - python >=3.9
   license: MIT
   license_family: MIT
+  purls:
+  - pkg:pypi/py-cpuinfo?source=hash-mapping
   run_exports: {}
   size: 25766
   timestamp: 1733236452235
@@ -67,6 +271,7 @@ packages:
   - python 3.14.* *_cp314
   license: BSD-3-Clause
   license_family: BSD
+  purls: []
   run_exports: {}
   size: 6791
   timestamp: 1788302824440
@@ -77,6 +282,8 @@ packages:
   - python >=3.9
   license: BSD-3-Clause
   license_family: BSD
+  purls:
+  - pkg:pypi/threadpoolctl?source=hash-mapping
   run_exports: {}
   size: 23869
   timestamp: 1741878358548
@@ -84,6 +291,7 @@ packages:
   sha256: b928c30ddcb0e3f544c6eade8352737e6e610e263276b90232db6a578ef899d8
   md5: fcb489df604d100968b737f2cb6076c6
   license: LicenseRef-Public-Domain
+  purls: []
   run_exports: {}
   size: 118849
   timestamp: 1784250406640
@@ -111,11 +319,113 @@ packages:
   - vc14_runtime >=14.44.35208
   license: bzip2-1.0.6
   license_family: BSD
+  purls: []
   run_exports:
     weak:
     - bzip2 >=1.0.8,<2.0a0
   size: 55919
   timestamp: 1785906343696
+- conda: https://prefix.dev/conda-forge/win-64/icu-78.3-h5112557_2.conda
+  sha256: 75c549b55b673e15de8785a8e5dd85bca7eb612eee0ff4dc8d7bdaa15eacbdbb
+  md5: e596942e8ee6ee17fdcf1e6a77757a66
+  depends:
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  license: MIT
+  license_family: MIT
+  run_exports:
+    weak:
+    - icu >=78.3,<79.0a0
+  size: 16835644
+  timestamp: 1784916416303
+- conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-11_h0adab6e_openblas.conda
+  build_number: 11
+  sha256: 64bf8d49bdd385193c68b56b0a11a256f1d7fa5711edfc9e9c7bcbf2ca25f636
+  md5: 33c7f7e9c63eaebaa05e2b3d3b10345c
+  depends:
+  - libopenblas >=0.3.34,<0.3.35.0a0
+  - libopenblas >=0.3.34,<1.0a0
+  constrains:
+  - blas 2.311   openblas
+  - libcblas   3.11.0   11*_openblas
+  - liblapack  3.11.0   11*_openblas
+  - liblapacke 3.11.0   11*_openblas
+  - mkl <2027
+  track_features:
+  - blas_openblas
+  - blas_openblas_2
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libblas >=3.11.0,<4.0a0
+  size: 67011
+  timestamp: 1789061527537
+- conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-11_h8455456_mkl.conda
+  build_number: 11
+  sha256: 51a38b02bacb5a4b546d41aeb0f7921ee85c0ec1009fdcb58635bcad06f2eb1a
+  md5: a63c8b08343d276a552c395f495987fa
+  depends:
+  - mkl >=2026.1.0,<2027.0a0
+  constrains:
+  - blas 2.311   mkl
+  - libcblas   3.11.0   11*_mkl
+  - liblapack  3.11.0   11*_mkl
+  - liblapacke 3.11.0   11*_mkl
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libblas >=3.11.0,<4.0a0
+  size: 67059
+  timestamp: 1789061341346
+- conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-5_h0adab6e_openblas.conda
+  build_number: 5
+  sha256: 3e2dd11aaac163957c6aee80eae8f36857abbc86f3e634d87c325763a95818e1
+  md5: bae34d8f039de36cc4384371aa12bd61
+  depends:
+  - libopenblas >=0.3.30,<0.3.31.0a0
+  - libopenblas >=0.3.30,<1.0a0
+  constrains:
+  - mkl <2026
+  - liblapack  3.11.0   5*_openblas
+  - libcblas   3.11.0   5*_openblas
+  - liblapacke 3.11.0   5*_openblas
+  - blas 2.305   openblas
+  track_features:
+  - blas_openblas
+  - blas_openblas_2
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libblas >=3.11.0,<4.0a0
+  size: 67314
+  timestamp: 1765819085840
+- conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-8_h0adab6e_openblas.conda
+  build_number: 8
+  sha256: 4f1b32dbaf68bcf0aa54bf9a218d2bb99fcb70070a0ca7031548855004b0d545
+  md5: a5ed6575e8cc7028c8327f1b5167caa6
+  depends:
+  - libopenblas >=0.3.33,<0.3.34.0a0
+  - libopenblas >=0.3.33,<1.0a0
+  constrains:
+  - mkl <2027
+  - libcblas   3.11.0   8*_openblas
+  - blas 2.308   openblas
+  - liblapack  3.11.0   8*_openblas
+  - liblapacke 3.11.0   8*_openblas
+  track_features:
+  - blas_openblas
+  - blas_openblas_2
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libblas >=3.11.0,<4.0a0
+  size: 68058
+  timestamp: 1779859607236
 - conda: https://prefix.dev/conda-forge/win-64/libblas-3.11.0-9_h0adab6e_openblas.conda
   build_number: 9
   sha256: c603ba6779b8f42e78b478b822b5929fe767607b9fbe51f70d23889b375e49ca
@@ -139,6 +449,102 @@ packages:
     - libblas >=3.11.0,<4.0a0
   size: 67201
   timestamp: 1786059268730
+- conda: https://prefix.dev/conda-forge/win-64/libblas-3.9.0-29_h11dc60a_openblas.conda
+  build_number: 29
+  sha256: c14c0bd45e0badcc836dd7b9d5478e7ed1802e6609ce44c873ca3cd1355aab39
+  md5: d941f58b9f9cf8c65d518d375e8635dd
+  depends:
+  - libopenblas 0.3.28 pthreads_head3c61_1
+  - mkl >=2024.2.2,<2025.0a0
+  constrains:
+  - liblapack =3.9.0=29*_openblas
+  - blas =2.129=openblas
+  - libcblas =3.9.0=29*_openblas
+  - liblapacke =3.9.0=29*_openblas
+  track_features:
+  - blas_openblas
+  - blas_backport_2
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libblas >=3.9.0,<4.0a0
+  size: 3941523
+  timestamp: 1739426021284
+- conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-11_h2a3cdd5_mkl.conda
+  build_number: 11
+  sha256: 9a2d431ead1463a7a96a38bedc901705c325c5bbafd7a2bcc5a198fbfcdea29e
+  md5: c9f8a732af97d55997f9ac6d0c02e3f2
+  depends:
+  - libblas 3.11.0 11_h8455456_mkl
+  constrains:
+  - blas 2.311   mkl
+  - liblapack  3.11.0   11*_mkl
+  - liblapacke 3.11.0   11*_mkl
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libcblas >=3.11.0,<4.0a0
+  size: 67465
+  timestamp: 1789061353350
+- conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-11_h2a8eebe_openblas.conda
+  build_number: 11
+  sha256: b7a1abf138480021b741460f357ac31440715d93fada2c2dad7e2e178bf4d202
+  md5: aaf231ec20a5e0521e3a460cc2100b58
+  depends:
+  - libblas 3.11.0 11_h0adab6e_openblas
+  constrains:
+  - blas 2.311   openblas
+  - liblapack  3.11.0   11*_openblas
+  - liblapacke 3.11.0   11*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libcblas >=3.11.0,<4.0a0
+  size: 67421
+  timestamp: 1789061539639
+- conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-5_h2a8eebe_openblas.conda
+  build_number: 5
+  sha256: b2500b4bd4fee0f7ddbecaf78e0c3abb942eff42947d32885170a7a88a85786a
+  md5: 1db756824d3aec6a25599c7821cb3e24
+  depends:
+  - libblas 3.11.0 5_h0adab6e_openblas
+  constrains:
+  - liblapacke 3.11.0   5*_openblas
+  - blas 2.305   openblas
+  - liblapack  3.11.0   5*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libcblas >=3.11.0,<4.0a0
+  size: 67694
+  timestamp: 1765819109987
+- conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-8_h2a8eebe_openblas.conda
+  build_number: 8
+  sha256: 15ed9a069e722471c159573b299d94762a516dde6ac9cd44e24b05dcde7d2416
+  md5: 91b2c920695d5f69081279743858ecef
+  depends:
+  - libblas 3.11.0 8_h0adab6e_openblas
+  constrains:
+  - blas 2.308   openblas
+  - liblapack  3.11.0   8*_openblas
+  - liblapacke 3.11.0   8*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libcblas >=3.11.0,<4.0a0
+  size: 68309
+  timestamp: 1779859619968
 - conda: https://prefix.dev/conda-forge/win-64/libcblas-3.11.0-9_h2a8eebe_openblas.conda
   build_number: 9
   sha256: d7711ffe17833bbbd59b0fdb541457456998240bcfe0d121c932e3edb5147a83
@@ -158,6 +564,28 @@ packages:
     - libcblas >=3.11.0,<4.0a0
   size: 67574
   timestamp: 1786059280433
+- conda: https://prefix.dev/conda-forge/win-64/libcblas-3.9.0-29_h9bd4c3b_openblas.conda
+  build_number: 29
+  sha256: 1a5e5b345fe988fa17c011b203a21e484dadf17e4172123194103622e8a6815e
+  md5: d131107b8b1ac7f54021ae8454287c73
+  depends:
+  - libblas 3.9.0 29_h11dc60a_openblas
+  - libopenblas * pthreads*
+  - libopenblas >=0.3.28,<1.0a0
+  - mkl >=2024.2.2,<2025.0a0
+  constrains:
+  - liblapack =3.9.0=29*_openblas
+  - blas =2.129=openblas
+  - liblapacke =3.9.0=29*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libcblas >=3.9.0,<4.0a0
+  size: 3941559
+  timestamp: 1739426060812
 - conda: https://prefix.dev/conda-forge/win-64/libexpat-2.8.5-hac47afa_0.conda
   sha256: 70c73d9fd24ad996f2821d1501adae2ca70984b4e2d8faed76227f348ce86078
   md5: 4969128c45f9e71adbb6a1696679ce7f
@@ -169,6 +597,7 @@ packages:
   - expat 2.8.5.*
   license: MIT
   license_family: MIT
+  purls: []
   run_exports: {}
   size: 72107
   timestamp: 1790346254561
@@ -181,11 +610,116 @@ packages:
   - vc14_runtime >=14.44.35208
   license: MIT
   license_family: MIT
+  purls: []
   run_exports:
     weak:
     - libffi >=3.5.2,<3.6.0a0
   size: 45831
   timestamp: 1769456418774
+- conda: https://prefix.dev/conda-forge/win-64/libhwloc-2.13.0-default_h049141e_1000.conda
+  sha256: 2ee12e37223dfcd0acd050c80a91150c482b6e2899198521e1800dce66662467
+  md5: 6a01c986e30292c715038d2788aa1385
+  depends:
+  - libwinpthread >=12.0.0.r4.gg4f2fc60ca
+  - libxml2
+  - libxml2-16 >=2.14.6
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libhwloc >=2.13.0,<2.13.1.0a0
+  size: 2396128
+  timestamp: 1770954127918
+- conda: https://prefix.dev/conda-forge/win-64/libiconv-1.18-hc1393d2_3.conda
+  sha256: 35e04e3ddac7720fc7c550a1c9f998604299d6a7bd1f3ec9b2825d825061daa2
+  md5: a8a2abdf0f901bc4779d9b7be0845921
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: LGPL-2.1-only
+  run_exports:
+    weak:
+    - libiconv >=1.18,<2.0a0
+  size: 694899
+  timestamp: 1787033851701
+- conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-11_hd232482_openblas.conda
+  build_number: 11
+  sha256: 0021c607d065b309d5fd19b48f0ebaf94ef3a680feecc3a728ab15900746efa8
+  md5: d90cd8cda6c69b8221e5fbefad5e554d
+  depends:
+  - libblas 3.11.0 11_h0adab6e_openblas
+  constrains:
+  - blas 2.311   openblas
+  - libcblas   3.11.0   11*_openblas
+  - liblapacke 3.11.0   11*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - liblapack >=3.11.0,<3.12.0a0
+  size: 79611
+  timestamp: 1789061550085
+- conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-11_hf9ab0e9_mkl.conda
+  build_number: 11
+  sha256: 460a2b9896bbee9a3cdfef26d1fdce056028291eef104564082de9e9f566bba6
+  md5: 79bdf20fd2666b8a3485a6021c935b3a
+  depends:
+  - libblas 3.11.0 11_h8455456_mkl
+  constrains:
+  - blas 2.311   mkl
+  - libcblas   3.11.0   11*_mkl
+  - liblapacke 3.11.0   11*_mkl
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - liblapack >=3.11.0,<3.12.0a0
+  size: 79503
+  timestamp: 1789061364082
+- conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-5_hd232482_openblas.conda
+  build_number: 5
+  sha256: 2b3f624da4d69d8a7b7fb65478266ec82602a74b6a907cefa6c6c912da9cebad
+  md5: 78240c2b4322025a74e7e6edad247103
+  depends:
+  - libblas 3.11.0 5_h0adab6e_openblas
+  constrains:
+  - libcblas   3.11.0   5*_openblas
+  - liblapacke 3.11.0   5*_openblas
+  - blas 2.305   openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - liblapack >=3.11.0,<3.12.0a0
+  size: 80090
+  timestamp: 1765819133030
+- conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-8_hd232482_openblas.conda
+  build_number: 8
+  sha256: db0174b9786c13bf1c10c743252c1bad67ea9521ac8c6f65060f66a80102de31
+  md5: 7363b5f4caa1312e2eff8a99b95e0ede
+  depends:
+  - libblas 3.11.0 8_h0adab6e_openblas
+  constrains:
+  - libcblas   3.11.0   8*_openblas
+  - blas 2.308   openblas
+  - liblapacke 3.11.0   8*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - liblapack >=3.11.0,<3.12.0a0
+  size: 80600
+  timestamp: 1779859632574
 - conda: https://prefix.dev/conda-forge/win-64/liblapack-3.11.0-9_hd232482_openblas.conda
   build_number: 9
   sha256: 29af6696603f747aa7c9a5e573f43fa78f867cc5c8dd269177dee895e3b941d6
@@ -205,6 +739,28 @@ packages:
     - liblapack >=3.11.0,<3.12.0a0
   size: 79904
   timestamp: 1786059290769
+- conda: https://prefix.dev/conda-forge/win-64/liblapack-3.9.0-29_h2526c6b_openblas.conda
+  build_number: 29
+  sha256: 275fae1235684e3de610ba235a7fbb97c43cbaa35611995947a74cefd856996f
+  md5: a7425681d2970e199fe95b39667da9de
+  depends:
+  - libblas 3.9.0 29_h11dc60a_openblas
+  - libopenblas * pthreads*
+  - libopenblas >=0.3.28,<1.0a0
+  - mkl >=2024.2.2,<2025.0a0
+  constrains:
+  - blas =2.129=openblas
+  - libcblas =3.9.0=29*_openblas
+  - liblapacke =3.9.0=29*_openblas
+  track_features:
+  - blas_openblas
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - liblapack >=3.9.0,<3.10.0a0
+  size: 3942189
+  timestamp: 1739426095548
 - conda: https://prefix.dev/conda-forge/win-64/liblapacke-3.11.0-9_hbb0e6ff_openblas.conda
   build_number: 9
   sha256: f7de338436edc68c9316bd3b5f21cf5016c2b472cb16aa5d33ad6f10651647da
@@ -234,6 +790,7 @@ packages:
   constrains:
   - xz 5.8.3.*
   license: 0BSD
+  purls: []
   run_exports:
     weak:
     - liblzma >=5.8.3,<6.0a0
@@ -248,9 +805,58 @@ packages:
   - vc14_runtime >=14.44.35208
   license: BSD-2-Clause
   license_family: BSD
+  purls: []
   run_exports: {}
   size: 89109
   timestamp: 1786650384519
+- conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.28-pthreads_head3c61_1.conda
+  sha256: 486bd77d518660eadce27e1bb25e3510e36fdc0f923e87de4a2ca26f07574476
+  md5: 4fe96cff3e61b58a9aa610adc0377815
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.2,<15
+  - vc14_runtime >=14.29.30139
+  constrains:
+  - openblas >=0.3.28,<0.3.29.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libopenblas >=0.3.28,<1.0a0
+  size: 3935890
+  timestamp: 1730777657469
+- conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.30-pthreads_h877e47f_4.conda
+  sha256: 95dd7508c2a9b866adf9cf9256403cad3755184b334c9624039b04448f6c8362
+  md5: f551f8ae0ae6535be1ffde181f9377f3
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  constrains:
+  - openblas >=0.3.30,<0.3.31.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libopenblas >=0.3.30,<1.0a0
+  size: 3976909
+  timestamp: 1763117316346
+- conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.33-pthreads_h877e47f_0.conda
+  sha256: 104bba89eaed090ab7dd6de17376ba7c14be7f4d44807346012e50a493f18ec9
+  md5: 51d4c0bc3695f63375d095004dc2597c
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  constrains:
+  - openblas >=0.3.33,<0.3.34.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libopenblas >=0.3.33,<1.0a0
+  size: 4046868
+  timestamp: 1776999773412
 - conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.34-pthreads_h877e47f_0.conda
   sha256: 8c34545ceb2431d1b67ba321c1750de2110be005bd2805abd591fc6b131c0a58
   md5: d4f65a8b96c7b3ef0e612779d71d9514
@@ -267,6 +873,22 @@ packages:
     - libopenblas >=0.3.34,<1.0a0
   size: 4057546
   timestamp: 1784293898318
+- conda: https://prefix.dev/conda-forge/win-64/libopenblas-0.3.34-pthreads_h952cde7_2.conda
+  sha256: 138056f68cf8f92cb1830fe1ed950d70856cc840f5f4b2569f9e849cb109bf7e
+  md5: 0a5ac276fca5648d0a7e1e70f34a8d7f
+  depends:
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  - ucrt >=10.0.20348.0
+  constrains:
+  - openblas >=0.3.34,<0.3.35.0a0
+  license: BSD-3-Clause
+  license_family: BSD
+  run_exports:
+    weak:
+    - libopenblas >=0.3.34,<1.0a0
+  size: 4772945
+  timestamp: 1789141490901
 - conda: https://prefix.dev/conda-forge/win-64/libsqlite-3.53.4-hf5d6505_1.conda
   sha256: 0a45d7c0f20146fff787a106f8fa187872e309c70975ff8f0936e188914c26ad
   md5: a72d495965b144bb7da033642d389047
@@ -275,11 +897,62 @@ packages:
   - vc >=14.3,<15
   - vc14_runtime >=14.44.35208
   license: blessing
+  purls: []
   run_exports:
     weak:
     - libsqlite >=3.53.4,<4.0a0
   size: 1314919
   timestamp: 1787051140039
+- conda: https://prefix.dev/conda-forge/win-64/libwinpthread-12.0.0.r4.gg4f2fc60ca-h57928b3_10.conda
+  sha256: 0fccf2d17026255b6e10ace1f191d0a2a18f2d65088fd02430be17c701f8ffe0
+  md5: 8a86073cf3b343b87d03f41790d8b4e5
+  depends:
+  - ucrt
+  constrains:
+  - pthreads-win32 <0.0a0
+  - msys2-conda-epoch <0.0a0
+  license: MIT AND BSD-3-Clause-Clear
+  run_exports: {}
+  size: 36621
+  timestamp: 1759768399557
+- conda: https://prefix.dev/conda-forge/win-64/libxml2-16-2.15.4-h3cfd58e_0.conda
+  sha256: 9fa71cec30425c9cc8eda6af3574af1faf4fefa5e239c9e037b1f778ef3ce8ac
+  md5: bab5489f4bd38494ffaa83d6ab924c1f
+  depends:
+  - icu >=78.3,<79.0a0
+  - libiconv >=1.18,<2.0a0
+  - liblzma >=5.8.3,<6.0a0
+  - libzlib >=1.3.2,<2.0a0
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  constrains:
+  - libxml2 2.15.4
+  license: MIT
+  license_family: MIT
+  run_exports: {}
+  size: 515800
+  timestamp: 1788635268845
+- conda: https://prefix.dev/conda-forge/win-64/libxml2-2.15.4-he095d88_0.conda
+  sha256: a19bb3821830f6b1281e782844d5dd265f796dfed2e4812b16c9995a8c778c88
+  md5: 3ce54d0f8f24dfab99d82414411640aa
+  depends:
+  - icu >=78.3,<79.0a0
+  - libiconv >=1.18,<2.0a0
+  - liblzma >=5.8.3,<6.0a0
+  - libxml2-16 2.15.4 h3cfd58e_0
+  - libzlib >=1.3.2,<2.0a0
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: MIT
+  license_family: MIT
+  run_exports:
+    weak:
+    - libxml2
+    - libxml2-16 >=2.15.4
+  size: 43845
+  timestamp: 1788635276599
 - conda: https://prefix.dev/conda-forge/win-64/libzlib-1.3.2-hfd05255_3.conda
   sha256: 0629c2cc0404d3bb29d6baa7b4ba62da80797015e86de050db81ea5a07050527
   md5: 5d2ff29d465097458cc3ff6569151991
@@ -291,11 +964,54 @@ packages:
   - zlib 1.3.2 *_3
   license: Zlib
   license_family: Other
+  purls: []
   run_exports:
     weak:
     - libzlib >=1.3.2,<2.0a0
   size: 58529
   timestamp: 1785276664143
+- conda: https://prefix.dev/conda-forge/win-64/llvm-openmp-23.1.2-h49e36cd_0.conda
+  sha256: 8b462c021d6bf3f956749d305bd3f52deb82ae2901047c0c7061a21c3550e48f
+  md5: 4b07614a10496df13cb3e35d249caf3c
+  depends:
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  constrains:
+  - intel-openmp <0.0a0
+  - openmp 23.1.2|23.1.2.*
+  license: Apache-2.0 WITH LLVM-exception
+  license_family: APACHE
+  run_exports:
+    strong:
+    - llvm-openmp >=23.1.2
+  size: 343460
+  timestamp: 1790195831140
+- conda: https://prefix.dev/conda-forge/win-64/mkl-2024.2.2-h57928b3_16.conda
+  sha256: ce841e7c3898764154a9293c0f92283c1eb28cdacf7a164c94b632a6af675d91
+  md5: 5cddc979c74b90cf5e5cda4f97d5d8bb
+  depends:
+  - llvm-openmp >=20.1.8
+  - tbb 2021.*
+  license: LicenseRef-IntelSimplifiedSoftwareOct2022
+  license_family: Proprietary
+  run_exports: {}
+  size: 103088799
+  timestamp: 1753975600547
+- conda: https://prefix.dev/conda-forge/win-64/mkl-2026.1.0-hac47afa_235.conda
+  sha256: bb8abe071f73765446df62924031e6599577e8ac9003264dc4569e78c0fea16d
+  md5: ace316c48c178d7faa403dee51e30c7b
+  depends:
+  - llvm-openmp >=22.1.8
+  - tbb >=2023.0.0
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: LicenseRef-IntelSimplifiedSoftwareOct2022
+  license_family: Proprietary
+  run_exports: {}
+  size: 114686732
+  timestamp: 1787725739779
 - conda: https://prefix.dev/conda-forge/win-64/numpy-2.3.5-py314h06c3c77_0.conda
   sha256: e64d4c049c9c69ef02d924ac1750b32e08f57732cbc6a3fe11794f3169b59d14
   md5: ddc6687a8f402695bd22229aaf69fb26
@@ -340,6 +1056,7 @@ packages:
   - vc14_runtime >=14.44.35208
   license: Apache-2.0
   license_family: Apache
+  purls: []
   run_exports:
     weak:
     - openssl >=3.6.4,<4.0a0
@@ -366,6 +1083,7 @@ packages:
   - vc14_runtime >=14.44.35208
   - zstd >=1.5.7,<1.6.0a0
   license: Python-2.0
+  purls: []
   run_exports:
     weak:
     - python_abi 3.14.* *_cp314
@@ -394,6 +1112,32 @@ packages:
   run_exports: {}
   size: 14991924
   timestamp: 1790022987236
+- conda: https://prefix.dev/conda-forge/win-64/tbb-2021.13.0-h50d9778_7.conda
+  sha256: e3d226dfab1006a30d1a5d2efcb9be4ff0011952950f03e63ba4545570761a1f
+  md5: 58fbf061d8a7a8893575b03368838828
+  depends:
+  - libhwloc >=2.13.0,<2.13.1.0a0
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: Apache-2.0
+  license_family: APACHE
+  run_exports: {}
+  size: 149567
+  timestamp: 1788767268457
+- conda: https://prefix.dev/conda-forge/win-64/tbb-2023.1.0-hdcfe883_0.conda
+  sha256: 7a65accbe954d0304b9056005f59fbee8b3928ceced38b1e3e8272aa1af0b750
+  md5: 8b1275f06705cdc2ab67f3bfdf4df843
+  depends:
+  - libhwloc >=2.13.0,<2.13.1.0a0
+  - ucrt >=10.0.20348.0
+  - vc >=14.3,<15
+  - vc14_runtime >=14.44.35208
+  license: Apache-2.0
+  license_family: APACHE
+  run_exports: {}
+  size: 157295
+  timestamp: 1788879168472
 - conda: https://prefix.dev/conda-forge/win-64/tk-8.6.13-h967ab96_4.conda
   sha256: f19618a3a82cc483dacf1c70a30367ee7b0c7e71b90f1f80e14feff44fbd3688
   md5: dd9eb33c99d352b6356f86964d6040f7
@@ -402,6 +1146,7 @@ packages:
   - vc14_runtime >=14.44.35208
   - ucrt >=10.0.20348.0
   license: TCL
+  purls: []
   run_exports:
     weak:
     - tk >=8.6.13,<8.7.0a0
@@ -414,6 +1159,7 @@ packages:
   - vc14_runtime >=14.29.30037
   - vs2015_runtime >=14.29.30037
   license: LicenseRef-MicrosoftWindowsSDK10
+  purls: []
   run_exports: {}
   size: 694692
   timestamp: 1756385147981
@@ -426,6 +1172,7 @@ packages:
   - vc14
   license: BSD-3-Clause
   license_family: BSD
+  purls: []
   run_exports: {}
   size: 21383
   timestamp: 1785359368566
@@ -439,6 +1186,7 @@ packages:
   - vs2015_runtime 14.51.36247.* *_41
   license: LicenseRef-MicrosoftVisualCpp2015-2022Runtime
   license_family: Proprietary
+  purls: []
   run_exports: {}
   size: 767955
   timestamp: 1785359364369
@@ -451,6 +1199,7 @@ packages:
   - vs2015_runtime 14.51.36247.* *_41
   license: LicenseRef-MicrosoftVisualCpp2015-2022Runtime
   license_family: Proprietary
+  purls: []
   run_exports:
     strong:
     - vcomp14 >=14.51.36247
@@ -466,8 +1215,60 @@ packages:
   - libzlib >=1.3.2,<2.0a0
   license: BSD-3-Clause
   license_family: BSD
+  purls: []
   run_exports:
     weak:
     - zstd >=1.5.7,<1.6.0a0
   size: 387535
   timestamp: 1786599623274
+- pypi: https://files.pythonhosted.org/packages/52/94/d73da0d28f16c45bb9b0a5691b91610b0275c5ef0eb5e43c87cf2dc1bf31/scipy-1.18.1-cp314-cp314-win_amd64.whl
+  name: scipy
+  version: 1.18.1
+  sha256: 78a0d7c918e74a232394117160e7e3db503377572a45bcef8826e4ab8a35feba
+  requires_dist:
+  - numpy>=2.0.0,<2.8
+  - pytest>=8.0.0 ; extra == 'test'
+  - pytest-cov ; extra == 'test'
+  - pytest-timeout ; extra == 'test'
+  - pytest-xdist ; extra == 'test'
+  - asv ; extra == 'test'
+  - mpmath ; extra == 'test'
+  - gmpy2 ; extra == 'test'
+  - threadpoolctl ; extra == 'test'
+  - scikit-umfpack ; extra == 'test'
+  - pooch ; extra == 'test'
+  - hypothesis>=6.30 ; extra == 'test'
+  - array-api-strict>=2.3.1 ; extra == 'test'
+  - cython ; extra == 'test'
+  - meson ; extra == 'test'
+  - ninja ; sys_platform != 'emscripten' and extra == 'test'
+  - scipy-doctest>=2.0.0 ; extra == 'test'
+  - sphinx>=5.0.0,<8.2.0 ; extra == 'doc'
+  - intersphinx-registry ; extra == 'doc'
+  - pydata-sphinx-theme>=0.15.2 ; extra == 'doc'
+  - sphinx-copybutton ; extra == 'doc'
+  - sphinx-design>=0.4.0 ; extra == 'doc'
+  - matplotlib>=3.5 ; extra == 'doc'
+  - numpydoc ; extra == 'doc'
+  - jupytext ; extra == 'doc'
+  - myst-nb>=1.2.0 ; extra == 'doc'
+  - pooch ; extra == 'doc'
+  - jupyterlite-sphinx>=0.19.1 ; extra == 'doc'
+  - jupyterlite-pyodide-kernel ; extra == 'doc'
+  - linkify-it-py ; extra == 'doc'
+  - tabulate ; extra == 'doc'
+  - click<8.3.0 ; extra == 'dev'
+  - spin ; extra == 'dev'
+  - mypy==1.19.1 ; extra == 'dev'
+  - pyrefly==0.63.0 ; extra == 'dev'
+  - typing-extensions ; extra == 'dev'
+  - types-psutil ; extra == 'dev'
+  - pycodestyle ; extra == 'dev'
+  - ruff>=0.12.0 ; extra == 'dev'
+  - cython-lint>=0.12.2 ; extra == 'dev'
+  requires_python: '>=3.12'
+- pypi: https://files.pythonhosted.org/packages/a3/2e/235b4d96619931192c91660805e5e49242389742a7a82c27665021db690c/numpy-2.3.5-cp314-cp314-win_amd64.whl
+  name: numpy
+  version: 2.3.5
+  sha256: e6a0bc88393d65807d751a614207b7129a310ca4fe76a74e5c7da5fa5671417e
+  requires_python: '>=3.11'

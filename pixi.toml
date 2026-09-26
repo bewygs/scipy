@@ -3,16 +3,53 @@ name = "debug-win-openblas"
 channels = ["https://prefix.dev/conda-forge"]
 platforms = ["win-64"]
 
-# Pins copied from scipy's pixi.lock (`test` env, win-64) as of df9633695f,
-# i.e. what the failing "fast, py3.12/npAny, spin" job installs.
 [dependencies]
 python = { version = "==3.14.2", build = "h4b44e0e_100_cp314" }
+threadpoolctl = "==3.6.0"
+py-cpuinfo = "*"
+
+# conda-forge numpy + prebuilt scipy, both linked to libblas/liblapack
+[feature.cf.dependencies]
 numpy = { version = "==2.3.5", build = "py314h06c3c77_0" }
+scipy = "*"
+
+# Pins copied from scipy's pixi.lock (`test` env, win-64) as of df9633695f,
+# i.e. what the failing "fast, py3.12/npAny, spin" job installs.
+[feature.ob34-0.dependencies]
 libopenblas = { version = "==0.3.34", build = "pthreads_h877e47f_0" }
 openblas = { version = "==0.3.34", build = "pthreads_h4a7f399_0" }
 libblas = { version = "==3.11.0", build = "9_h0adab6e_openblas" }
 blas-devel = { version = "==3.11.0", build = "9_ha590de0_openblas" }
-threadpoolctl = "==3.6.0"
-# prebuilt scipy, linked against the same libblas/liblapack -> libopenblas
+
+[feature.ob34-2.dependencies]
+libopenblas = { version = "==0.3.34", build = "pthreads_h952cde7_2" }
+libblas = { version = "*", build = "*openblas" }
+
+[feature.ob33.dependencies]
+libopenblas = "0.3.33.*"
+libblas = { version = "*", build = "*openblas" }
+
+[feature.ob30.dependencies]
+libopenblas = "0.3.30.*"
+libblas = { version = "*", build = "*openblas" }
+
+[feature.ob28.dependencies]
+libopenblas = "0.3.28.*"
+libblas = { version = "*", build = "*openblas" }
+
+[feature.mkl.dependencies]
+libblas = { version = "*", build = "*mkl" }
+
+# PyPI wheels, which bundle their own scipy-openblas builds
+[feature.pypi.pypi-dependencies]
+numpy = "==2.3.5"
 scipy = "*"
-py-cpuinfo = "*"
+
+[environments]
+default = ["cf", "ob34-0"]
+ob34-2 = ["cf", "ob34-2"]
+ob33 = ["cf", "ob33"]
+ob30 = ["cf", "ob30"]
+ob28 = ["cf", "ob28"]
+mkl = ["cf", "mkl"]
+pypi = ["pypi"]
